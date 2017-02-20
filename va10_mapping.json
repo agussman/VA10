@@ -12,22 +12,10 @@
             "type" : "long"
           },
           "County/City" : {
-            "type" : "text",
-            "fields" : {
-              "keyword" : {
-                "type" : "keyword",
-                "ignore_above" : 256
-              }
-            }
+            "type" : "keyword"
           },
           "Label" : {
-            "type" : "text",
-            "fields" : {
-              "keyword" : {
-                "type" : "keyword",
-                "ignore_above" : 256
-              }
-            }
+            "type" : "keyword"
           },
           "Luann L" : {
             "properties" : {
@@ -61,7 +49,7 @@
             }
           },
           "Year" : {
-            "type" : "long"
+            "type" : "date"
           }
         }
       }
