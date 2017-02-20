@@ -1,5 +1,4 @@
 {
-  "va10" : {
     "mappings" : {
       "precinct" : {
         "properties" : {
@@ -67,5 +66,4 @@
         }
       }
     }
-  }
 }
