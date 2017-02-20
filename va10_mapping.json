@@ -1,0 +1,71 @@
+{
+  "va10" : {
+    "mappings" : {
+      "precinct" : {
+        "properties" : {
+          "All Others" : {
+            "type" : "long"
+          },
+          "Barbara Jean Comstock" : {
+            "type" : "long"
+          },
+          "Blanks" : {
+            "type" : "long"
+          },
+          "County/City" : {
+            "type" : "text",
+            "fields" : {
+              "keyword" : {
+                "type" : "keyword",
+                "ignore_above" : 256
+              }
+            }
+          },
+          "Label" : {
+            "type" : "text",
+            "fields" : {
+              "keyword" : {
+                "type" : "keyword",
+                "ignore_above" : 256
+              }
+            }
+          },
+          "Luann L" : {
+            "properties" : {
+              " Bennett" : {
+                "type" : "long"
+              }
+            }
+          },
+          "Pct" : {
+            "type" : "text",
+            "fields" : {
+              "keyword" : {
+                "type" : "keyword",
+                "ignore_above" : 256
+              }
+            }
+          },
+          "Percent_D" : {
+            "type" : "float"
+          },
+          "Total Votes Cast" : {
+            "type" : "long"
+          },
+          "Ward" : {
+            "type" : "text",
+            "fields" : {
+              "keyword" : {
+                "type" : "keyword",
+                "ignore_above" : 256
+              }
+            }
+          },
+          "Year" : {
+            "type" : "long"
+          }
+        }
+      }
+    }
+  }
+}
