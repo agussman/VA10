@@ -7,5 +7,6 @@ VA10 $ mkvirtualenv --python=/usr/local/bin/python3 va10
 (va10)data $ pip install jupyter
 (va10)data $ pip install pandas
 (va10)data $ pip install matplotlib
+(va10)data $ pip install elasticsearch
 (va10)data $ jupyter notebook
 ```
