@@ -17,21 +17,11 @@
           "Label" : {
             "type" : "keyword"
           },
-          "Luann L" : {
-            "properties" : {
-              " Bennett" : {
-                "type" : "long"
-              }
-            }
+          "Luann L Bennett" : {
+            "type" : "long"
           },
           "Pct" : {
-            "type" : "text",
-            "fields" : {
-              "keyword" : {
-                "type" : "keyword",
-                "ignore_above" : 256
-              }
-            }
+            "type" : "keyword"
           },
           "Percent_D" : {
             "type" : "float"
@@ -40,13 +30,7 @@
             "type" : "long"
           },
           "Ward" : {
-            "type" : "text",
-            "fields" : {
-              "keyword" : {
-                "type" : "keyword",
-                "ignore_above" : 256
-              }
-            }
+            "type" : "keyword"
           },
           "Year" : {
             "type" : "date"
