@@ -1,0 +1,6 @@
+[submodule "leaflet-dvf"]
+	path = leaflet-dvf
+	url = https://github.com/humangeo/leaflet-dvf.git
+[submodule "va-precinct-maps-2016"]
+	path = va-precinct-maps-2016
+	url = https://github.com/vapublicaccessproject/va-precinct-maps-2016.git
